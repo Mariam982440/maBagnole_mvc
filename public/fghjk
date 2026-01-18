@@ -1,0 +1,9 @@
+mabagnole_mvc/
+├── app/
+│   ├── config/      # database.php
+│   ├── models/      # Article.php, Theme.php, Tag.php
+│   ├── controllers/ # BlogController.php
+│   └── views/       # blog/index.php
+├── public/
+│   ├── .htaccess    # Redirection vers index.php
+│   └── index.php    # LE ROUTEUR DYNAMIQUE
